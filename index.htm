@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Էվակուատոր 24/7</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Основной стиль для фона и шрифтов */
+        body {
+            background: url('images/tow-truck.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        /* Стили для основных блоков */
+        header, section, footer {
+            width: 90%;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+        }
+        /* Стили для навигации */
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+        /* Стили для кнопки звонка */
+        .call-btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 12px 25px;
+            background: #e53935;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+        }
+        /* Адаптивное меню для узких экранов */
+        @media (max-width: 600px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+#services ul {
+    display: inline-block;
+    text-align: left;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Էվակուատոր 24/7</h1>
+        <nav>
+            <ul>
+                <li><a href="#services">Ծառայություններ</a></li>
+                <li><a href="#about">Մեր Մասին</a></li>
+                <li><a href="#contact">Կապ</a></li>
+            </ul>
+        </nav>
+        <a href="tel:+37412345678" class="call-btn">Զանգահարել հիմա</a>
+    </header>
+
+    <section id="services">
+        <h2>Ծառայություններ</h2>
+        <ul>
+            <li>Վթարված կամ անջատված մեքենայի քարշակում</li>
+            <li>Շարժունակության խնդիր ունեցող մեքենայի քարշակում</li>
+            <li>Մոտոցիկլների քարշակում</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Մեր Մասին</h2>
+        <p>
+            Մեր էվակուատոր ծառայությունը արագ, հուսալի և մատչելի է։ <br> Մենք ապահովում ենք 
+            ձեր մեքենայի որակյալ քարշակումը ցանկացած ժամանցում,<br> 24/7 ծառայությամբ:
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Կապ մեզ հետ</h2>
+        <p>📞 Հեռախոս՝ <a href="tel:+37441505552">+374 41 50 55 52</a></p>
+        <p>📱 WhatsApp՝ <a href="https://wa.me/37498591854" target="_blank">+374 98 59 18 54</a></p>
+    </section>
+
+    <footer>
+        <p>Մեզ հետ՝ անվտանգ և հուսալի տեղափոխում</p>
+    </footer>
+</body>
+</html>
